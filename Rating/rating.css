@@ -1,0 +1,21 @@
+@import url("../../Utility CSS/navbar.css");
+
+.code-container {
+  width: 100%;
+}
+
+.checked {
+  color: var(--star-color);
+}
+
+i {
+  font-size: 2rem;
+  margin-top: 20px;
+  padding: 10px;
+}
+.rating__star {
+  cursor: pointer;
+  color: var(--star-color);
+  margin-top: 20px;
+  padding: 10px;
+}
