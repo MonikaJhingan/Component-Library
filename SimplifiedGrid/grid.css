@@ -1,0 +1,18 @@
+@import url("../../Utility CSS/navbar.css");
+
+.code-container {
+  width: 100%;
+}
+
+.grid-2-col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+    gap: 0rem;
+	border-radius: 2rem;
+	
+}
+.grid-3-col {
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+	border-radius: 2rem;
+}
