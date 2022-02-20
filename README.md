@@ -1,2 +1,2 @@
 # Component Library
- This library helps in designing a UI faster.
+ This library helps to build the UI faster.
