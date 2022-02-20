@@ -14,14 +14,14 @@
   padding: 4px 6px;
   border: none;
   border-radius: 1rem;
-  color:var(--btn-primary-color
+  color:var(--btn-primary-color);
   background-color: none;
+  cursor: pointer;
 }
 
 .btn:hover,
 .btn-link:hover {
-  filter: brightness(0.9);
-  cursor: pointer;
+ filter: brightness(0.9);
 }
 
 .btn-primary {
@@ -58,7 +58,7 @@
   font-weight: 300;
   border: none;
   border-radius: 1rem;
-  color: #fafafa;
+  color:var(--btn-primary-color);
   background-color: var(--primary-color);
 }
 
@@ -155,7 +155,7 @@
   height: 5rem;
   width: 10rem;
   font-size: 1.8rem;
-  padding: 4px 6px;
+  padding: 0.25rem 0.30px;
   margin: 2rem;
   background-color: transparent;
   border: none;
