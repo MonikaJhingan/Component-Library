@@ -14,7 +14,7 @@
   padding: 4px 6px;
   border: none;
   border-radius: 1rem;
-  color: #fafafa;
+  color:var(--btn-primary-color
   background-color: none;
 }
 
@@ -174,7 +174,7 @@
   width: 5rem;
   border-radius: 50%;
   background-color: var(--btn-primary-color);
-  box-shadow: 5px -19px 139px -13px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px -19px 139px -13px var(--btn-primary-color);
   position: relative;
 }
 
