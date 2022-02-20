@@ -1,0 +1,113 @@
+/* reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    border-radius: 1rem;
+    font-size: 60%;
+  }
+  /* reset CSS End */
+  
+  /* flex CSS */
+  
+  .container-flex {
+    display: flex;
+  }
+  .flex-center {
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-sb {
+    justify-content: space-between;
+  }
+  
+  .flex-sa {
+    justify-content: space-around;
+  }
+  
+  .flex-sa {
+    justify-content: space-evenly;
+  }
+  
+  .flex-wr {
+    flex-wrap: wrap;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  /* flex CSS End*/
+  
+  /* Border and Border Radius  CSS */
+  
+  .border-none {
+    border: none;
+  }
+  
+  .border-radius-50 {
+    border-radius: 50%;
+  }
+  
+  .border-radius-s{
+    border-radius: 1rem;
+  }
+  
+  .border-solid {
+    border: 2px solid #000000;
+  }
+  /* Border and Border Radius CSS End */
+  
+  /* Anchor style */
+  
+  .anchor-style {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+  }
+  
+  /* Anchor style End */
+  
+  /* button style */
+  
+  .button-style {
+    padding: 10px 8px;
+    margin: 1px 3px;
+    border-style:outset;
+  }
+  
+  /* button style End */
+  
+  /* Font sizes */
+  .font-medium {
+    font-size: 1.7rem;
+    font-style: oblique;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .font-l {
+    font-size: 2.4rem;
+    font-family:serif;
+    font-style: oblique;
+
+  
+    
+    
+  }
+  
+  .font-xl {
+    font-size: 3rem;
+  }
+  
+  /* Font sizes End */
+  
+  .padding-p1 {
+    padding: 4px 6px;
+  }
+  
+  .margin-m1 {
+    margin: 4px 6px;
+  }

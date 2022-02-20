@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap");
+/*@import url(./Component/homepage.css);*/
+
+/* FIXME:change colors into variables */
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+}
+
+li {
+  display: inline-block;
+}
+
+.header__icon {
+  width: 30rem;
+}
+
+ul {
+  justify-content: space-around;
+}
+
+nav {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.12);
+  width: 100vw;
+  height: 6rem;
+  align-items: center;
+  border-radius: 0 0 1rem 1rem;
+  background-color: #13c7df;
+}
+
+.nav__icon--position {
+  position: absolute;
+}
+.nav__subtitle--position {
+  position: relative;
+  top: 1.5rem;
+  left: -4.5rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.font-light {
+  font-weight: 200;
+}
+
+.header__nav {
+  width: 50rem;
+}
+
+img {
+  padding: 5rem;
+  height: 30rem;
+  width: 50rem;
+  border-radius: 100px;
+  border-style:outset;
+  border-color: #0a838b;
+  border-width: 2px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.section__title {
+  height: 41rem;
+  width: 80rem;
+}
+
+.nav__item--hover:hover {
+  color: #ed3ac6;
+}
+
+.section__image {
+  height: 34rem;
+  width: 34rem;
+}
+button {
+  width: 36rem;
+  height: 4rem;
+  border-radius: 2rem;
+}
+
+.btn-primary {
+  border: 2px solid #ed3ac6;
+  background-color: transparent;
+  cursor: pointer;
+  color: #ed3ac6;
+}
+.btn-primary:hover {
+  background-color: #ed3ac6;
+  color: #ffffff;
+}
+.btn-secondry {
+  border: none;
+  background-color: #ed3ac6;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn-secondry:hover {
+  filter: brightness(0.9);
+}
+
+footer {
+  height: 20rem;
+  width: 100vw;
+  background-color: #3f3947;
+  color: white;
+}
+
+.footer__icon,
+.footer__item {
+  color: white;
+}
+
+.section__title2 {
+  margin-left: 10rem;
+}
