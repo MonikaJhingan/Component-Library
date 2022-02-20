@@ -1,0 +1,57 @@
+@import url("../../Utility CSS/navbar.css");
+
+.code-container {
+  width: 100%;
+}
+
+.box {
+  height: 25rem;
+  
+}
+
+.text-area,
+.input {
+  height: 10rem;
+  width: 30rem;
+  font-size: 1.9rem;
+  padding: 1rem;
+  border: 2px solid var(#1f1006);
+  border-radius: 5rem;
+  border-width: 0.5rem;
+  outline: none;
+  background-color: aqua;
+}
+
+.input {
+  height: 3rem;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px solid var(--light-color);
+}
+
+.input-radio {
+  font-size: 3rem;
+}
+
+.element-round {
+  font-size: 4rem;
+  height: 10rem;
+}
+.label-text {
+  display: inline-block;
+  margin: 2rem;
+}
+input[type="email"]:invalid {
+  border: 3px solid var(--btn-danger-color);
+}
+
+input[type="password"]:invalid {
+  border: 3px solid var(--btn-danger-color);
+}
+
+.label-text {
+  display: inline-block;
+  margin: 1rem;
+}

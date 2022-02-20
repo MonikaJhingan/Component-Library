@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./input.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Card</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >CLI
+                <span class="nav__subtitle--position">COMPONENT LIBRARY APP</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+              <span class="sidebar-title"> Components </span>
+          </li>
+          <li>
+              <a href="../Avatar/avatar.html" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+              </a>
+          </li>
+          <li>
+              <a href="../Alert/alert.html" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+              </a>
+          </li>
+          <li>
+              <a href="../Badge/badge.html" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+              </a>
+          </li>
+          <li>
+              <a href="../Button/button.html" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+              </a>
+          </li>
+          <li>
+              <a href="../Card/card.html" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+              </a>
+          </li>
+          <li>
+              <a href="../Image/image.html" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+              </a>
+          </li>
+          <li>
+              <a href="../Input/input.html" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+              </a>
+          </li>
+          <li>
+              <a href="../TextUtilities/textUtilities.html" class="sidebar-menu" rel="noopener noreferrer">
+              Text Utilities
+              </a>
+          </li>
+          <li>
+              <a href="../List/list.html" class="sidebar-menu" rel="noopener noreferrer">
+              List
+              </a>
+          </li>
+          <li>
+              <a href="../Navigation/navigation.html" class="sidebar-menu" rel="noopener noreferrer">
+              Navigation
+              </a>
+          </li>
+          <li>
+              <a href="../Modal/modal.html" class="sidebar-menu" rel="noopener noreferrer">
+              Modal
+              </a>
+          </li>
+          <li>
+              <a href="../Rating/rating.html" class="sidebar-menu" rel="noopener noreferrer">
+              Rating
+              </a>
+          </li>
+          <li>
+              <a href="../Toast/toast.html" class="sidebar-menu" rel="noopener noreferrer">
+              Toast
+              </a>
+          </li>
+          <li>
+              <a href="../SimplifiedGrid/grid.html" class="sidebar-menu" rel="noopener noreferrer">
+              Simplified Grid
+              </a>
+          </li>
+      </ul>
+      </div>
+      <div class="main">
+        <h1 class="font-xl margin-m2">Input</h1>
+        <br />
+        <hr />
+        <h3 class="font-medium margin-m2">Primary Inputs With Textbox</h3>
+        <p  class="font-medium label-text"> Primary input with textbox is one way of taking input from the user.</p>
+
+        <div class="box container-flex flex-column">
+          <textarea
+            class="text-area"
+            cols="300"
+            rows="10"
+            placeholder="Enter a text"
+          >
+          </textarea>
+          <br />
+          <br />
+          <input type="text" class="input" placeholder="Enter text" /> <br />
+          <br />
+          <input type="number" class="input" placeholder="Enter Number" />
+          <br />
+          <br />
+          <input type="password" class="input" placeholder="Enter password" />
+          <br />
+          <br />
+        </div>
+        <div class="margin-m2 padding-p2">
+          <code class="code-container container-flex flex-center">
+            <iframe src="https://carbon.now.sh/embed/kgvYDso4jyCZOGvOihlf" style="width: 620px; height: 167px; border:0; transform: scale(1); overflow:hidden;"
+             sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+        </div>
+        <h3 class="font-medium margin-m2">Inputs with Validation Error Style </h3>
+        <p class="font-medium label-text">These inputsare validated first and then give any kind of access to the user.</p>
+        <div class="box">
+          <label for="demo" class="font-medium label-text">Email</label> <br />
+          <input type="email" name="demo" class="input" /> <br />
+          <label for="demo" class="font-medium label-text">Password</label>
+          <br />
+          <input
+            type="password"
+            class="input"
+            value="I@ampassword"
+            pattern="^.{8,}$"
+            required
+            placeholder="Enter Password"
+          />
+        </div>
+        <div class="margin-m2 padding-p2">
+          <code class="code-container container-flex flex-center">
+            <iframe
+            src="https://carbon.now.sh/embed/7KjUFXucufD7u8x6HQs1"
+            style="width: 620px; height: 167px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </code>
+        </div>
+
+        <div class="box"></div>
+      </div>
+    </div>
+  </body>
+</html>
