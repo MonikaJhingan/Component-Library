@@ -34,7 +34,7 @@ figure {
   justify-content: center;
   align-items: center;
   margin: 1rem;
-  background-color: rgb(228, 15, 132);
+  background-color:var(--background--color);
   border-radius: 50%;
 }
 
