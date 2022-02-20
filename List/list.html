@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../../Utility CSS/utility.css" />
+    <link rel="stylesheet" href="./list.css" />
+
+    <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
+    <title>Card</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="container-flex flex-sb flex-wr">
+        <div class="header__nav">
+          <ul class="container-flex">
+            <li>
+              <a
+                href="../../index.html"
+                class="font-l anchor-style nav__icon--position nav__item--hover"
+                >CLI
+                <span class="nav__subtitle--position">COMPONENT LIBRARY APP</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div class="sidebar container-flex">
+        <ul class="font-xl">
+          <li>
+              <span class="sidebar-title"> Components </span>
+          </li>
+          <li>
+              <a href="../Avatar/avatar.html" class="sidebar-menu" rel="noopener noreferrer">
+              Avatar
+              </a>
+          </li>
+          <li>
+              <a href="../Alert/alert.html" class="sidebar-menu" rel="noopener noreferrer">
+              Alert
+              </a>
+          </li>
+          <li>
+              <a href="../Badge/badge.html" class="sidebar-menu" rel="noopener noreferrer">
+              Badge
+              </a>
+          </li>
+          <li>
+              <a href="../Button/button.html" class="sidebar-menu" rel="noopener noreferrer">
+              Button
+              </a>
+          </li>
+          <li>
+              <a href="../Card/card.html" class="sidebar-menu" rel="noopener noreferrer">
+              Card
+              </a>
+          </li>
+          <li>
+              <a href="../Image/image.html" class="sidebar-menu" rel="noopener noreferrer">
+              Image
+              </a>
+          </li>
+          <li>
+              <a href="../Input/input.html" class="sidebar-menu" rel="noopener noreferrer">
+              Input
+              </a>
+          </li>
+          <li>
+              <a href="../TextUtilities/textUtilities.html" class="sidebar-menu" rel="noopener noreferrer">
+              Text Utilities
+              </a>
+          </li>
+          <li>
+              <a href="../List/list.html" class="sidebar-menu" rel="noopener noreferrer">
+              List
+              </a>
+          </li>
+          <li>
+              <a href="../Navigation/navigation.html" class="sidebar-menu" rel="noopener noreferrer">
+              Navigation
+              </a>
+          </li>
+          <li>
+              <a href="../Modal/modal.html" class="sidebar-menu" rel="noopener noreferrer">
+              Modal
+              </a>
+          </li>
+          <li>
+              <a href="../Rating/rating.html" class="sidebar-menu" rel="noopener noreferrer">
+              Rating
+              </a>
+          </li>
+          <li>
+              <a href="../Toast/toast.html" class="sidebar-menu" rel="noopener noreferrer">
+              Toast
+              </a>
+          </li>
+          <li>
+              <a href="../SimplifiedGrid/grid.html" class="sidebar-menu" rel="noopener noreferrer">
+              Simplified Grid
+              </a>
+          </li>
+      </ul>
+      </div>
+      <div class="main">
+        <h1 class="font-xl margin-m2">List</h1>
+        <br />
+        <hr />
+        <p class="font-medium margin-m1">List Component is used to display a collection of items.</pclass>
+        <h3 class="font-medium margin-m2">Spaced List</h3>
+        <div class="box">
+          <ul>
+            <li class="list-item">List Item 1</li>
+            <br />
+            <li class="list-item"> List Item 2</li>
+            <br />
+            <li class="list-item"> List Item 3</li>
+            <br />
+          </ul>
+        </div>
+        <div class="margin-m2 padding-p2">
+          <code class="code-container container-flex flex-center">
+            <iframe
+            src="https://carbon.now.sh/embed/WF8f1aWIeaiPxCSYfdzb"
+            style="width: 426px; height: 100px; border:0; transform: scale(1); overflow:hidden;margin-top: 60px;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
+          </code>
+        </div>
+        <h3 class="font-medium margin-m2">Stacked List</h3>
+        <div class="box">
+          <ul>
+            <li class="list-item stacked-list">
+              <div>
+                <img src="https://picsum.photos/300/50/50" class="avatar" alt="" />
+              </div>
+
+              <div class="container-flex flex-column flex-center">
+                <p class="list-description">Purchased Failed</p>
+                <p>Your purchase of item failed.</p>
+              </div>
+
+              <div class="container-flex flex-column flex-center">
+                <p>30 sec ago</p>
+              </div>
+            </li>
+            <br />
+            <li class="list-item stacked-list">
+              <div>
+                <img src="https://picsum.photos/300/50/50" class="avatar" alt="" />
+              </div>
+
+              <div class="container-flex flex-column flex-center">
+                <p class="list-description">Purchased Successful</p>
+                <p>Your purchased Passion Flower.</p>
+              </div>
+
+              <div class="container-flex flex-column flex-center">
+                <p>2 hours ago</p>
+              </div>
+            </li>
+            <br />
+          </ul>
+        </div>
+        <div class="margin-m2 padding-p2">
+          <code class="code-container container-flex flex-center">
+            <iframe
+              src="https://carbon.now.sh/embed/QqZ0k9Bx5ogb35um5yBP"
+              style="width: 722px; height: 826px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </code>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
