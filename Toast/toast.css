@@ -1,0 +1,65 @@
+@import url("../../Utility CSS/navbar.css");
+
+.code-container {
+  width: 100%;
+}
+
+.btn {
+  height: 2rem;
+  width: 10rem;
+  font-size: 2rem;
+  margin: 2rem;
+  padding: 2px 5px;
+  border:5px;
+  border-radius: 2 rem;
+  color: #e7eb0c;
+  background-color: black;
+  position: relative;
+  margin-left: 550px;
+  
+}
+
+.btn-default {
+  background-color: grey;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.89);
+}
+
+#toast {
+  position:fixed;
+  top: 2px;
+  right: 10px;
+  display: flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+
+.toast {
+  font-size: 2.5rem;
+  border-radius: 8px;
+  padding: 1rem 1rem;
+  margin: 2rem;
+  width: 80rem;
+  margin-left: 200px;
+}
+
+
+.toast-success {
+  background-color: rgb(15, 128, 0);
+  color: rgb(240, 225, 15);
+  text-align: center;
+}
+.toast-error {
+  background-color: rgb(139, 1, 1);
+  color: rgb(230, 216, 24);
+  text-align: center;
+}
+
+.toast-default {
+  background-color: rgb(123, 141, 243);
+  color: rgb(70, 66, 66);
+  text-align: center;
+}
