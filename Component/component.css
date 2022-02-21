@@ -1,17 +1,17 @@
-@import url(./Avatar/avatar.css);
 @import url(./Alert/alert.css);
+@import url(./Avatar/avatar.css);
 @import url(./Badge/badge.css);
 @import url(./Button/button.css);
 @import url(./Card/card.css);
 @import url(./Image/image.css);
 @import url(./Input/input.css);
-@import url(./TextUtilities/textUtilities.css);
 @import url(./List/list.css);
-@import url(./Navigation/navigation.css);
 @import url(./Modal/modal.css);
+@import url(./Navigation/navigation.css);
 @import url(./Rating/rating.css);
 @import url(./Toast/toast.css);
 @import url(./SimplifiedGrid/grid.css);
+@import url(./TextUtilities/textUtilities.css);
 @import url(../Utility/colors.css);
 @import url(../Utility/utility.css);
 
