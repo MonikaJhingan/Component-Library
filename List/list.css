@@ -1,0 +1,37 @@
+@import url("../../Utility CSS/navbar.css");
+
+.code-container {
+  width: 100%;
+}
+.box {
+  height: 10rem;
+  width: 100%;
+  padding: 25px;
+}
+
+.list-item {
+  width: 50rem;
+  font-size: 3rem;
+  margin-left: 40rem;
+  padding: 1rem;
+  border-bottom: 2px solid var(--success-color);
+}
+
+.list-item:hover {
+  background-color: rgba(40, 209, 187, 0.2);
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.stacked-list {
+  width: 50rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-description {
+  font-size: 2rem;
+  font-weight: bold;
+}
