@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../../Utility CSS/utility.css" />
-    <link rel="stylesheet" href="./list.css" />
+    <link rel="stylesheet" href="./navigation.css" />
 
     <link rel="icon" href="../../img/logo.png" type="image/x-icon" />
-    <title>Card</title>
+    <title>Navigation</title>
   </head>
-
   <body>
     <header>
       <nav class="container-flex flex-sb flex-wr">
@@ -112,73 +113,54 @@
       </ul>
       </div>
       <div class="main">
-        <h1 class="font-xl margin-m2">List</h1>
+        <h1 class="font-xl margin-m2">Navigation</h1>
         <br />
         <hr />
-        <p class="font-medium margin-m1">List Component is used to display a collection of items.</pclass>
-        <h3 class="font-medium margin-m2">Spaced List</h3>
+        <p class="font-medium margin-m1">Navigation helps the user in going or navigate from one page to another in a given Website.</p><br>
+
         <div class="box">
-          <ul>
-            <li class="list-item">List Item 1</li>
-            <br />
-            <li class="list-item"> List Item 2</li>
-            <br />
-            <li class="list-item"> List Item 3</li>
-            <br />
-          </ul>
-        </div>
-        <div class="margin-m2 padding-p2">
-          <code class="code-container container-flex flex-center">
-            <iframe
-            src="https://carbon.now.sh/embed/WF8f1aWIeaiPxCSYfdzb"
-            style="width: 426px; height: 100px; border:0; transform: scale(1); overflow:hidden;margin-top: 60px;"
-            sandbox="allow-scripts allow-same-origin">
-          </iframe>
-          </code>
-        </div>
-        <h3 class="font-medium margin-m2">Stacked List</h3>
-        <div class="box">
-          <ul>
-            <li class="list-item stacked-list">
-              <div>
-                <img src="https://picsum.photos/300/50/50" class="avatar" alt="" />
-              </div>
+          <nav class="navigation">
+            <div class="nav-sitename ">
+                 <h1> <a href="" class="nav-logo anchor">My Website</a></h1>
+            </div>
 
-              <div class="container-flex flex-column flex-center">
-                <p class="list-description">Purchased Failed</p>
-                <p>Your purchase of item failed.</p>
-              </div>
+            <div class="nav__searchbar">
+                 <input type="text" class="input" />
+                 <button class="btn btn-secondary">Search</button>
+            </div>
 
-              <div class="container-flex flex-column flex-center">
-                <p>30 sec ago</p>
-              </div>
-            </li>
-            <br />
-            <li class="list-item stacked-list">
-              <div>
-                <img src="https://picsum.photos/300/50/50" class="avatar" alt="" />
-              </div>
+            <div class="nav-other">
+                <button class="btn btn-default">Log In</button>
 
-              <div class="container-flex flex-column flex-center">
-                <p class="list-description">Purchased Successful</p>
-                <p>Your purchased Passion Flower.</p>
-              </div>
+            <div class="icon">
+                <a href="" class="anchor"> <i class="fa fa-heart"></i></a>
+                <span class="icon-text"> My Wishlist</span>
+            </div>
 
-              <div class="container-flex flex-column flex-center">
-                <p>2 hours ago</p>
-              </div>
-            </li>
-            <br />
-          </ul>
-        </div>
-        <div class="margin-m2 padding-p2">
-          <code class="code-container container-flex flex-center">
-            <iframe
-              src="https://carbon.now.sh/embed/QqZ0k9Bx5ogb35um5yBP"
-              style="width: 722px; height: 826px; border:0; transform: scale(1); overflow:hidden;"
+            <div class="icon">
+                <a href="" class="anchor"><i class="fa fa-shopping-cart"></i></a>
+                <span class="icon-text">My Cart</span>
+            </div>
+
+            </div>
+          </nav>
+        </div> <br>
+
+     
+
+        <div class="margin-m2  container-flex flex-center">
+            <code class="code-container">
+              <iframe
+              src="https://carbon.now.sh/embed/PEQBzUyU0avMLX8rrA1f"
+              style="width: 721px; height: 400px; border:0; transform: scale(1); overflow:hidden;"
               sandbox="allow-scripts allow-same-origin">
             </iframe>
-          </code>
+            </code>
+          </div>
+          
+
+
+       
         </div>
       </div>
     </div>
