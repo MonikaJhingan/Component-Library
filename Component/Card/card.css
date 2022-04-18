@@ -7,7 +7,7 @@
 }
 
 .card-container {
-  width: 35.2rem;
+  width: 35rem;
   height: 50rem;
   border: 1px solid var(--border-color);
   margin: 1rem 1rem;
@@ -89,7 +89,7 @@
   font-weight: bold;
   display: inline-block;
   background-color: var(--light-color);
-  width: 3rem;
+  width: 1.4rem;
   height: 3rem;
   padding: 4px 8px;
   position: absolute;
