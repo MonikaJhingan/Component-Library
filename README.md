@@ -21,8 +21,8 @@ I have designed 10 components of the component Library.
 • Icon Button
 
 5. Card
-•  Guard with badges
-•  God with dismiss
+•  Card with badges
+•  Card with dismiss
 •  Card with text over there
 •   Text only cards
 •  Vertical slash horizontal cards
@@ -46,9 +46,21 @@ I have designed 10 components of the component Library.
 •  Spaced list
 •  Stacked list
 
-10.Rating
+10.Rating(for eCommerce)
 
-https://user-images.githubusercontent.com/67049170/155011949-e7fb5be0-14ba-4808-954a-8a9dc5f0d9a2.mp4
+11.Modal
+12.Simplified Grid
+- grid-2: two items in a grid
+- grid-3: three items
+13 Toast
+14.Navigation
+- Desktop (Simple)
+
+
+https://user-images.githubusercontent.com/67049170/163742129-48aa3013-c1b0-4
+https://user-images.githubusercontent.com/67049170/163742161-03f3566b-7b7b-499d-a77a-a093f84d2bfa.mp4
+
+
 
 
 
