@@ -57,7 +57,7 @@ I have designed 10 components of the component Library.
 - Desktop (Simple)
 
 
-https://user-images.githubusercontent.com/67049170/163742129-48aa3013-c1b0-4
+
 https://user-images.githubusercontent.com/67049170/163742161-03f3566b-7b7b-499d-a77a-a093f84d2bfa.mp4
 
 
